@@ -1,14 +1,3 @@
-local exploit = getexecutorname or identifyexecutor
-local support = {
-    ["Fluxus"] = true,
-    ["Trigon"] = false,
-    ["Codex"] = false,
-    ["Delta"] = false,
-    ["Vega X"] = true,
-    ["Hydrogen"] = true,
-    ["alysse"] = true,
-    ["ArceusX"] = true,
-    ["Electron"] = false,
 }
 
 if support[exploit()]  then
